@@ -9,7 +9,7 @@ DOCKER_VER=18.09.6
 CNI_VER=v0.7.5
 DOCKER_COMPOSE_VER=1.23.2
 HARBOR_VER=v1.9.4
-CONTAINERD_VER=1.2.6
+CONTAINERD_VER=1.3.6
 
 echo -e "\nNote: It's suggested to download using 'tools/easzup -D', everything needed will be ready in '/etc/ansible'."
 
