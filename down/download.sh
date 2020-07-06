@@ -14,14 +14,14 @@ CONTAINERD_VER=1.2.6
 echo -e "\nNote: It's suggested to download using 'tools/easzup -D', everything needed will be ready in '/etc/ansible'."
 
 echo -e "\n----download k8s binary at:"
-echo -e https://dl.k8s.io/${K8S_VER}/kubernetes-server-linux-amd64.tar.gz
+echo -e https://dl.k8s.io/${K8S_VER}/kubernetes-server-linux-arm.tar.gz
 
 echo -e "\n----download etcd binary at:"
-echo -e https://github.com/coreos/etcd/releases/download/${ETCD_VER}/etcd-${ETCD_VER}-linux-amd64.tar.gz
-echo -e https://storage.googleapis.com/etcd/${ETCD_VER}/etcd-${ETCD_VER}-linux-amd64.tar.gz
+echo -e https://github.com/coreos/etcd/releases/download/${ETCD_VER}/etcd-${ETCD_VER}-linux-arm64.tar.gz
+echo -e https://storage.googleapis.com/etcd/${ETCD_VER}/etcd-${ETCD_VER}-linux-arm64.tar.gz
 
 echo -e "\n----download docker binary at:"
-echo -e https://download.docker.com/linux/static/stable/x86_64/docker-${DOCKER_VER}.tgz
+echo -e https://download.docker.com/linux/static/stable/aarch64/docker-${DOCKER_VER}.tgz
 
 echo -e "\n----download ca tools at:"
 echo -e https://pkg.cfssl.org/R1.2/cfssl_linux-arm
