@@ -24,9 +24,9 @@ echo -e "\n----download docker binary at:"
 echo -e https://download.docker.com/linux/static/stable/x86_64/docker-${DOCKER_VER}.tgz
 
 echo -e "\n----download ca tools at:"
-echo -e https://pkg.cfssl.org/R1.2/cfssl_linux-amd64
-echo -e https://pkg.cfssl.org/R1.2/cfssljson_linux-amd64
-echo -e https://pkg.cfssl.org/R1.2/cfssl-certinfo_linux-amd64
+echo -e https://pkg.cfssl.org/R1.2/cfssl_linux-arm
+echo -e https://pkg.cfssl.org/R1.2/cfssljson_linux-arm
+echo -e https://pkg.cfssl.org/R1.2/cfssl-certinfo_linux-arm
 
 echo -e "\n----download docker-compose at:"
 echo -e https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VER}/docker-compose-Linux-x86_64
